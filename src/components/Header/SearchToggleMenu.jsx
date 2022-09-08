@@ -17,9 +17,7 @@ export default function SearchToggleMenu() {
     const handleClickAway = () => {
         setShowSearchMenu(false);
     }
-    React.useEffect(() => {
-        console.log(showSearchMenu)
-    }, [showSearchMenu])
+
     return (
         <ClickAwayListener onClickAway={() => handleClickAway()}>
 

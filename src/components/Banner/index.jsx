@@ -12,7 +12,7 @@ export default function Content() {
                     <input placeholder='Search rfa.sc.gov' className='text-black placeholder:font-semibold placeholder:italic placeholder:text-sm p-2 mr-1 w-fit text-lg focus:outline-none focus:border-light-blue'/>
                     <button className='  bg-light-blue hover:bg-blue active:bg-dark-blue text-white p-2 font-bold  text-sm'>
                         SEARCH
-                        <FontAwesomeIcon icon={faSearch} className='ml-2'/>    
+                        <FontAwesomeIcon icon={faSearch} className='md:visible hidden ml-2'/>    
                     </button>
                 </div>
             </div>
